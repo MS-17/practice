@@ -1,0 +1,19 @@
+# create branch
+git checkout -b test
+
+# push branch to repo called origin 
+git push origin test
+
+# connect remote repo and call it develop
+git remote add develop https://github.com/MS-17/practice.git
+
+# display remote repos with names
+git remote -v
+
+# change branch
+git checkout main 
+
+# initialize git in repo
+git init
+
+
